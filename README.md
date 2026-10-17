@@ -1,6 +1,6 @@
 <div align="center">
 
-# 孔岩彬 · Yanbin Kong
+# 孔岩彬 · Ivan Kong
 
 **Student developer building full-stack products and agent-powered systems.**
 
