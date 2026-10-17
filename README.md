@@ -2,7 +2,7 @@
 
 # 孔岩彬 · Yanbin Kong
 
-**Student developer building practical full-stack systems.**
+**Student developer building full-stack products and agent-powered systems.**
 
 把真实问题做成可维护的软件，而不只是能运行的 demo。
 
@@ -14,28 +14,35 @@
 
 ## About
 
-I am a student at Wuxi University, currently focused on full-stack web systems, real-time applications, and tools that improve everyday workflows.
+I am a student at Wuxi University, currently focused on full-stack web systems, Python backends, agent workflows, real-time applications, and tools that improve everyday workflows.
 
-I enjoy working across the whole product boundary: interface design, API contracts, data models, deployment, testing, and the unglamorous edge cases that decide whether software is actually useful.
+I enjoy working across the whole product boundary: interface design, API contracts, agent orchestration, data models, deployment, testing, and the unglamorous edge cases that decide whether software is actually useful.
 
 ## Selected work
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| [Community-Reuse](https://github.com/Tech-luoyi/Community-Reuse) | A neighborhood item circulation platform with explicit frontend/backend boundaries, AI-assisted pricing, semantic search, and failure states that tell the truth. | Next.js 15 · TypeScript · PostgreSQL · Prisma · pgvector |
+| [Community-Reuse](https://github.com/Tech-luoyi/Community-Reuse) | A neighborhood item circulation platform with explicit frontend/backend boundaries, AI-assisted pricing, semantic search, retrieval-backed agent tools, and failure states that tell the truth. | Next.js 15 · TypeScript · PostgreSQL · Prisma · pgvector · LangGraph |
 | [CSPortfolio](https://github.com/Tech-luoyi/CSPortfolio) | An end-to-end recruitment portal for a university computer association: applications, uploads, review, status tracking, CSV export, and deployment. | Nuxt 3 · Vue 3 · TypeScript · SQLite · Docker |
 | [Remote2048](https://github.com/Tech-luoyi/Remote2048) | A real-time two-player 2048 variant with an authoritative game server, client prediction and recovery, reconnects, and an Expectimax solver. | JavaScript · Node.js · WebSocket · Canvas · WebAssembly |
 
-## Working with
+## Technical focus
 
-`TypeScript` · `Vue / Nuxt` · `React / Next.js` · `Node.js` · `Python` · `PostgreSQL` · `Prisma` · `Docker`
+| Area | Tools and practices |
+| --- | --- |
+| Frontend | React, Next.js, Vue, Nuxt, TypeScript, responsive UI |
+| Backend | Node.js, Python, REST APIs, service boundaries, typed contracts |
+| Agents and AI | Agent workflows, tool calling, LLM integration, retrieval, LangGraph |
+| Data | PostgreSQL, SQLite, Prisma, pgvector |
+| Delivery | Docker, GitHub Actions, Linux, testing and deployment |
 
 I care more about choosing the right abstraction than collecting tools. When a constraint is unclear, I prefer a small executable prototype, a written contract, and a test over a long speculative design.
 
 ## Current direction
 
-- Building maintainable full-stack products for campus and community workflows.
-- Exploring AI-assisted experiences and retrieval systems without hiding degraded behavior behind false success states.
+- Building maintainable React and Vue products backed by Node.js or Python services.
+- Designing agent workflows with explicit tools, retrieval boundaries, and observable failure states.
+- Exploring AI-assisted experiences without hiding degraded behavior behind false success states.
 - Improving developer experience through clearer contracts, better tests, and honest documentation.
 
 ## Engineering principles
@@ -50,4 +57,3 @@ I care more about choosing the right abstraction than collecting tools. When a c
 - Institution: Wuxi University
 
 Open to thoughtful issues and pull requests on the projects above.
-
